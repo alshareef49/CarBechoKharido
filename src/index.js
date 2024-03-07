@@ -11,7 +11,6 @@ connectDB()
     app.listen(process.env.PORT || 8000);
 })
 .catch((err)=>{
-    console.log("MONGODB connection failed!!!");
-    console.log(err);
+    console.log("MONGODB connection failed!!!",err);
 })
 
